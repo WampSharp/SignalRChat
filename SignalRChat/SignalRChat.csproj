@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR" version="1.0.0-alpha1-final" />
+    <PackageReference Include="WampSharp.AspNetCore.WebSockets.Server" Version="1.2.6.43-beta" />
+    <PackageReference Include="WampSharp.NewtonsoftJson" Version="1.2.6.43-beta" />
   </ItemGroup>
 
 </Project>

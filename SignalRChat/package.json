@@ -5,9 +5,10 @@
   "main": "chat.js",
   "dependencies": {},
   "devDependencies": {
-    "@aspnet/signalr-client": "^1.0.0-alpha1-final",
+    "@types/autobahn": "^0.9.37",
     "@types/jquery": "^3.2.12",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "autobahn": "^17.5.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
